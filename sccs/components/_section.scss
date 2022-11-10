@@ -1,13 +1,13 @@
 .section {
     padding-top: 94px;
-    background-color: var(--color-brand)
-}
+    background-color: var(--color-brand);
 
-.section__section-position {
+
+&__section-position {
     padding-bottom: 94px;
 }
 
-.section__title {
+&__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -17,20 +17,20 @@
 }
 
 
-.section__section-flex {
+&__section-flex {
     display: flex;
 }
 
-.section__item {
+&__item {
     width: calc((100% - 90px) / 4);
     background-color: var(--color-brand);
 }
-.section__list {
+&__list {
     display: flex;
     gap: 30px;
 }
 
-.section__container-icon {
+&__container-icon {
     width: 100%;
     height: 120px;
     display: flex;
@@ -42,7 +42,7 @@
 
 }
 
-.section__name {
+&__name {
     font-weight: 700;
     line-height: 1.1;
     text-transform: uppercase;
@@ -51,19 +51,19 @@
     margin-bottom: 10px;
 }
 
-.section__text {
+&__text {
     line-height: 1.7;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.section__card {
+&__card {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.section__card-name {
+&__card-name {
     position: absolute;
     bottom: 0;
     margin: 0;
@@ -79,12 +79,12 @@
     padding-bottom: 27px;
 }
 
-.section--color {
+&--color {
     background-color: var(--color-bgd-light);
 }
 
 
-.section__team-name {
+&__team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -93,14 +93,14 @@
 
 }
 
-.section__team-position {
+&__team-position {
     font-size: 16px;
     line-height: 1.2;
     margin-top: 0;
     margin-bottom: 16px;
 }
 
-.section__card-team {
+&__card-team {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 270px;
@@ -109,9 +109,10 @@
     border-radius: 0px 0px 4px 4px;
     
 }
-.section__portfolio-nav {
+&__portfolio-nav {
 align-items: center;
 margin-bottom: 50px;
+}
 }
 
 

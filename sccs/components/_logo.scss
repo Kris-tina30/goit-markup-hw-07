@@ -1,3 +1,4 @@
+
 .logo {
     color: var(--color-accent);
     font-family: raleway, sans-serif;
@@ -7,16 +8,19 @@
     letter-spacing: 0.03em;
     padding-top: 24px;
     padding-bottom: 25px;
-}
 
-.logo:hover,
-.logo:focus {
-    color: var(--color-accent)
-}
 
-.logo__element {
-    color: var(--color-logo-accent);
-}
-.logo__element--white {
-    color: var(--color-brand);
+    &:hover,
+    &:focus {
+        color: var(--color-accent)
+    }
+
+    &__element {
+        color: var(--color-logo-accent);
+
+        &--white {
+            color: var(--color-brand);
+        }
+    }
+
 }
